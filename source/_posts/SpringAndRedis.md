@@ -1,7 +1,11 @@
 ---
-title: SpringAndRedis
+title: Spring集成Redis单机模式、哨兵模式、集群模式
 date: 2018-10-25 17:32:14
 tags:
+- Redis
+- Spring
+categories:
+- Redis
 ---
 # Spring集成Redis单机模式、哨兵模式、集群模式
 ## 单机模式
