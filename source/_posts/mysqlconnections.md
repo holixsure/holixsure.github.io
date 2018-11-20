@@ -1,5 +1,5 @@
 ---
-title: mysqlconnections
+title: MySQL连接数
 date: 2018-11-20 20:47:52
 tags:
 - MySQL
