@@ -1,5 +1,5 @@
 ---
-title: git命令
+title: 常用Git命令清单
 date: 2018-12-04 10:33:44
 tags:
 - git
@@ -8,7 +8,7 @@ categories:
 - git
 ---
 
-### GIT命令
+### Git命令
 
 #### 新建
 
