@@ -8,6 +8,8 @@ categories:
 - Redis
 ---
 # Spring集成Redis单机模式、哨兵模式、集群模式
+
+
 ## 单机模式
 redis配置文件redis.properties
 
