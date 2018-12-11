@@ -2,11 +2,15 @@
 title: 常用Git命令清单
 date: 2018-12-04 10:33:44
 tags:
-- git
+- Git
 - 命令
 categories:
-- git
+- Git
 ---
+
+Git常用命令整理
+
+<!-- more -->
 
 ### Git命令
 
@@ -25,6 +29,26 @@ $ git config [--global] user.name "[name]"
 $ git config [--global] user.email "[email]"
 ```
 
+
+#### 文件操作
+
+```shell
+# 添加文件到index
+$ git add [file1] [file2]
+```
+
+
+#### 提交
+
+```shell
+# 提交到本地仓库
+$ git commit -m [message]
+
+# 推送到远程分支
+$ git push origin [branch-name]
+```
+
+
 #### 分支(branch)操作
 
 ```shell
@@ -35,11 +59,29 @@ $ git branch
 $ git branch -r
 
 # 创建本地分支，不会切换到创建的分支
-$ git branch [name]
+$ git branch [branch-name]
 
 # 创建本地分支，并切换到创建的分支
-$ git branch -b [name]
+$ git checkout -b [branch-name]
+
+# 合并指定分支到当前分支
+$ git merge [branch-name]
 
 # 合并某个commit到当前分支
 $ git cherry-pick [commit]
+
+# 删除本地分支
+$ git branch -d [branch-name]
+
+# 删除远程分支
+$ git push origin --delete [branch-name]
 ```
+
+
+#### 查看信息
+
+```shell
+# 查看变更信息
+$ git status
+```
+
