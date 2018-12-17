@@ -24,7 +24,7 @@ $ git clone [url]
 #### 配置
 
 ```shell
-# 设置提交代码是的用户信息
+# 设置提交代码时的用户信息
 $ git config [--global] user.name "[name]"
 $ git config [--global] user.email "[email]"
 ```
@@ -63,6 +63,12 @@ $ git branch [branch-name]
 
 # 创建本地分支，并切换到创建的分支
 $ git checkout -b [branch-name]
+
+# 根据commit新建分支
+$ git branch [branch-name] [commit]
+
+# 切换分支
+$ git checkout [branch-name]
 
 # 合并指定分支到当前分支
 $ git merge [branch-name]
