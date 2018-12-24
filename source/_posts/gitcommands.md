@@ -84,6 +84,14 @@ $ git push origin --delete [branch-name]
 ```
 
 
+#### 撤销
+
+```shell
+# 恢复某个commit到工作区
+$ git checkout [commit]
+```
+
+
 #### 查看信息
 
 ```shell
