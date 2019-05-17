@@ -16,3 +16,8 @@ comments: false
 - [redis单例、主从模式、sentinel以及集群的配置方式及优缺点对比](https://my.oschina.net/zhangxufeng/blog/905611)
 
 
+
+
+
+- [图解Kerberos协议原理](http://www.nosqlnotes.com/technotes/kerberos-protocol/)
+
