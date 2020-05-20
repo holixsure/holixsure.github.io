@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="命令,RabbitMQ," />
+  <meta name="keywords" content="RabbitMQ,命令," />
 
 
 
@@ -80,7 +80,7 @@
 
 
 <meta name="description" content="先简单整理一下需要用到的命令，后面再详细介绍。">
-<meta name="keywords" content="命令,RabbitMQ">
+<meta name="keywords" content="RabbitMQ,命令">
 <meta property="og:type" content="article">
 <meta property="og:title" content="RabbitMQ命令">
 <meta property="og:url" content="http://yoursite.com/2018/11/07/rabbitmqcommand/index.html">
@@ -364,9 +364,9 @@
       
         <p>先简单整理一下需要用到的命令，后面再详细介绍。</p>
 <a id="more"></a>
-<h3 id="增加用户"><a href="#增加用户" class="headerlink" title="增加用户"></a>增加用户</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> rabbitmqctl add_user username password</span></span><br></pre></td></tr></table></figure>
-<h3 id="设置用户角色"><a href="#设置用户角色" class="headerlink" title="设置用户角色"></a>设置用户角色</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> rabbitmqctl set_user_tags username administrator</span></span><br></pre></td></tr></table></figure>
-<h3 id="为用户赋权"><a href="#为用户赋权" class="headerlink" title="为用户赋权"></a>为用户赋权</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> rabbitmqctl set_permissions -p / username <span class="string">'.*'</span> <span class="string">'.*'</span> <span class="string">'.*'</span></span></span><br></pre></td></tr></table></figure>
+<h3 id="增加用户"><a href="#增加用户" class="headerlink" title="增加用户"></a>增加用户</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> rabbitmqctl add_user username password</span><br></pre></td></tr></table></figure>
+<h3 id="设置用户角色"><a href="#设置用户角色" class="headerlink" title="设置用户角色"></a>设置用户角色</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> rabbitmqctl set_user_tags username administrator</span><br></pre></td></tr></table></figure>
+<h3 id="为用户赋权"><a href="#为用户赋权" class="headerlink" title="为用户赋权"></a>为用户赋权</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> rabbitmqctl set_permissions -p / username '.*' '.*' '.*'</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -384,9 +384,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/命令/" rel="tag"># 命令</a>
-          
             <a href="/tags/RabbitMQ/" rel="tag"># RabbitMQ</a>
+          
+            <a href="/tags/命令/" rel="tag"># 命令</a>
           
         </div>
       
@@ -583,7 +583,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
