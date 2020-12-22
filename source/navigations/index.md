@@ -30,10 +30,17 @@ comments: false
 ##### Other
 
 - [LoreFree](https://lorefree.com): 首个基于EOS和IPFS的去中心化知识共享社区
+- [hive中sql解析出对应表和字段的实现](https://www.cnblogs.com/drawwindows/p/4595771.html)
+- [HiveSQL解析原理](https://www.cnblogs.com/csguo/p/7553022.html)
 - [图解Kerberos协议原理](http://www.nosqlnotes.com/technotes/kerberos-protocol/)
 - [jenkov.com](http://tutorials.jenkov.com)
 - [JVM Anatomy Quarks](https://shipilev.net/jvm/anatomy-quarks/)
 - [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
 - [Java 技术驿站](http://cmsblogs.com)
 - [服务端高并发分布式架构演进之路](https://segmentfault.com/a/1190000018626163)
+- [Think OS: A Brief Introduction to Operating Systems](http://greenteapress.com/thinkos/html/index.html)
+- [Think Data Structures: Algorithms and Information Retrieval in Java](http://greenteapress.com/thinkdast/html/index.html)
+- [Calculus for Beginners and Artists](http://math.mit.edu/~djk/calculus_beginners/index.html)
+- [Think Complexity](http://greenteapress.com/complexity2/html/index.html)
+- [mac 系统中文件的软链接、硬链接](https://slarker.me/mac-file-link/)
 
