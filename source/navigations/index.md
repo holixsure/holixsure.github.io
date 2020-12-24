@@ -29,6 +29,8 @@ comments: false
 
 ##### Other
 
+- [OI Wiki](https://oi-wiki.org): 信息学奥林匹克竞赛
+
 - [LoreFree](https://lorefree.com): 首个基于EOS和IPFS的去中心化知识共享社区
 - [hive中sql解析出对应表和字段的实现](https://www.cnblogs.com/drawwindows/p/4595771.html)
 - [HiveSQL解析原理](https://www.cnblogs.com/csguo/p/7553022.html)
