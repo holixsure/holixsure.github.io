@@ -1,21 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://holixsure.com/posts/my-first-post/</loc>
-    <lastmod>2025-05-12T23:47:37+08:00</lastmod>
+    <loc>https://holixsure.com/categories/</loc>
+    <lastmod>2025-05-20T10:24:53+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://holixsure.com/categories/mac/</loc>
+    <lastmod>2025-05-20T10:24:53+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://holixsure.com/tags/macos/</loc>
+    <lastmod>2025-05-20T10:24:53+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://holixsure.com/posts/mac/5331ed1/</loc>
+    <lastmod>2025-05-20T10:24:53+08:00</lastmod>
   </url>
   <url>
     <loc>https://holixsure.com/posts/</loc>
-    <lastmod>2025-05-12T23:47:37+08:00</lastmod>
-  </url>
-  <url>
-    <loc>https://holixsure.com/</loc>
-    <lastmod>2025-05-12T23:47:37+08:00</lastmod>
-  </url>
-  <url>
-    <loc>https://holixsure.com/categories/</loc>
+    <lastmod>2025-05-20T10:24:53+08:00</lastmod>
   </url>
   <url>
     <loc>https://holixsure.com/tags/</loc>
+    <lastmod>2025-05-20T10:24:53+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://holixsure.com/</loc>
+    <lastmod>2025-05-20T10:24:53+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://holixsure.com/posts/my-first-post/</loc>
+    <lastmod>2025-05-12T23:47:37+08:00</lastmod>
   </url>
 </urlset>

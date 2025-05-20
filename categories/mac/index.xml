@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>All Posts - 相信简单</title>
-    <link>https://holixsure.com/posts/</link>
+    <title>Mac - Category - 相信简单</title>
+    <link>https://holixsure.com/categories/mac/</link>
     <description>相信简单</description>
     <generator>Hugo 0.147.2 &amp; FixIt v0.3.21-a85a6655</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 20 May 2025 10:24:53 +0800</lastBuildDate>
-    <atom:link href="https://holixsure.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://holixsure.com/categories/mac/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>macOS升级记录及问题</title>
       <link>https://holixsure.com/posts/mac/5331ed1/</link>
@@ -15,13 +15,6 @@
       <guid>https://holixsure.com/posts/mac/5331ed1/</guid>
       <category domain="https://holixsure.com/categories/mac/">Mac</category>
       <description>&lt;p&gt;本文主要记录 MacBook Pro 在升级系统后出现的各种问题，仅代表个人，不具备普适性。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>https://holixsure.com/posts/my-first-post/</link>
-      <pubDate>Mon, 12 May 2025 23:47:37 +0800</pubDate>
-      <guid>https://holixsure.com/posts/my-first-post/</guid>
-      <description>My First Post</description>
     </item>
   </channel>
 </rss>
