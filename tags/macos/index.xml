@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Macos on 相信简单</title>
+    <title>Macos - Tag - 相信简单</title>
     <link>https://holixsure.com/tags/macos/</link>
-    <description>Recent content in Macos on 相信简单</description>
-    <generator>Hugo</generator>
+    <description>相信简单</description>
+    <generator>Hugo 0.147.2 &amp; FixIt v0.3.21-a85a6655</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 20 May 2025 10:24:53 +0800</lastBuildDate>
     <atom:link href="https://holixsure.com/tags/macos/index.xml" rel="self" type="application/rss+xml" />
@@ -13,6 +13,7 @@
       <link>https://holixsure.com/posts/mac/5331ed1/</link>
       <pubDate>Tue, 20 May 2025 10:24:53 +0800</pubDate>
       <guid>https://holixsure.com/posts/mac/5331ed1/</guid>
+      <category domain="https://holixsure.com/categories/mac/">Mac</category>
       <description>&lt;p&gt;本文主要记录 MacBook Pro 在升级系统后出现的各种问题，仅代表个人，不具备普适性。&lt;/p&gt;</description>
     </item>
   </channel>
