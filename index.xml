@@ -1,1 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>相信简单</title><link>https://www.holixsure.com/</link><description>Recent content on 相信简单</description><generator>Hugo</generator><language>zh-cn</language><atom:link href="https://www.holixsure.com/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>相信简单</title><link>https://www.holixsure.com/</link><description>Recent content on 相信简单</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 14 Feb 2026 20:27:58 +0800</lastBuildDate><atom:link href="https://www.holixsure.com/index.xml" rel="self" type="application/rss+xml"/><item><title>使用Hugo与GitHub Pages搭建个人博客</title><link>https://www.holixsure.com/posts/hugo/github_page/</link><pubDate>Sat, 14 Feb 2026 20:27:58 +0800</pubDate><guid>https://www.holixsure.com/posts/hugo/github_page/</guid><description>&lt;p&gt;使用 Hugo 搭建自己的博客，并通过 GitHub Actions 将其自动部署到 GitHub Pages 上。&lt;/p&gt;
+&lt;h2 id="概述"&gt;概述&lt;/h2&gt;
+&lt;p&gt;Hugo 是一个使用 Go 语言编写的静态网站生成器 (Static Site Generator，SSG)。它的主要作用是将基于 Markdown 的内容转换为完整的、可部署的 HTML 静态网站。它以速度快、易于使用、可扩展性强而著称，广泛应用于博客、文档、公司官网等场景。&lt;/p&gt;
+&lt;p&gt;GitHub Pages 是 GitHub 提供的一个免费静态网站托管服务，你可以将 HTML/CSS/JS（或者使用 Hugo、Jekyll、VuePress 等静态网站生成器构建的站点）部署到 GitHub 上并通过一个 GitHub 提供的域名（如 &lt;a href="https://holixsure.github.com"&gt;https://holixsure.github.com&lt;/a&gt;）访问。&lt;/p&gt;
+&lt;p&gt;GitHub Actions 是 GitHub 提供的一套持续集成/持续部署（CI/CD）平台，可以让你在 GitHub 仓库的生命周期中自动执行各种任务，比如编译构建、测试、部署等。&lt;/p&gt;
+&lt;h2 id="准备"&gt;准备&lt;/h2&gt;
+&lt;p&gt;GitHub 上准备两个仓库，一个用来存放 markdown 原始文件，另外一个 GitHub Pages 仓库用来存放使用 Hugo 生成的静态文件。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;blog: 私有仓库，用来存放原始文件。&lt;/li&gt;
+&lt;li&gt;holixsure.github.io: GitHub Pages 固定命名的仓库，用来存放博客静态文件，使用 Hugo 生成的静态文件将推送到这个仓库中。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果需要通过域名访问，还需要注册一个域名，然后将域名解析指向 Github Pages 地址。&lt;/p&gt;
+&lt;p&gt;Hugo 安装和使用参考 &lt;a href="https://gohugo.io/getting-started/quick-start/"&gt;Hugo 官方文档&lt;/a&gt; (&lt;a href="https://hugo.opendocs.io/getting-started/quick-start/"&gt;中文文档&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id="使用-hugo-创建静态博客"&gt;使用 Hugo 创建静态博客&lt;/h2&gt;
+&lt;h3 id="创建博客目录"&gt;创建博客目录&lt;/h3&gt;
+&lt;p&gt;使用 &lt;code&gt;hugo&lt;/code&gt; 命令创建博客根目录&lt;/p&gt;</description></item></channel></rss>
