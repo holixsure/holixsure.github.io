@@ -69,10 +69,75 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
+// Table of Contents functionality
+function initTOC() {
+  const tocLinks = document.querySelectorAll('.toc-link');
+  const sections = document.querySelectorAll('h2, h3');
+  
+  if (!tocLinks.length || !sections.length) return;
+  
+  // Add IDs to sections if they don't have them
+  sections.forEach(section => {
+    if (!section.getAttribute('id')) {
+      const sectionText = section.textContent.trim();
+      const sectionId = sectionText.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9\-_]/g, '');
+      section.setAttribute('id', sectionId);
+    }
+  });
+  
+  // Update TOC links to match section IDs
+  tocLinks.forEach((link, index) => {
+    if (index < sections.length) {
+      const sectionId = sections[index].getAttribute('id');
+      link.setAttribute('href', '#' + sectionId);
+    }
+  });
+  
+  // Smooth scroll for TOC links
+  tocLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      const targetId = this.getAttribute('href');
+      const targetElement = document.querySelector(targetId);
+      
+      if (targetElement) {
+        window.scrollTo({
+          top: targetElement.offsetTop - 100,
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+  
+  // Highlight current section on scroll
+  window.addEventListener('scroll', function() {
+    let currentSection = '';
+    
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop;
+      if (window.scrollY >= sectionTop - 150) {
+        currentSection = '#' + section.getAttribute('id');
+      }
+    });
+    
+    tocLinks.forEach(link => {
+      link.classList.remove('active');
+      if (link.getAttribute('href') === currentSection) {
+        link.classList.add('active');
+      }
+    });
+  });
+}
+
 // Update theme when system preference changes
 window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
   if (!localStorage.getItem('theme')) {
     const newTheme = e.matches ? 'dark' : 'light';
     document.documentElement.setAttribute('data-theme', newTheme);
   }
+});
+
+// Initialize TOC when DOM is loaded
+document.addEventListener('DOMContentLoaded', function() {
+  initTOC();
 });
