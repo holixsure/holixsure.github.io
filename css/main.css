@@ -51,7 +51,8 @@ body {
 /* Main content */
 .main {
   flex: 1;
-  padding: 2rem 0;
+  padding: 6rem 0 2rem;
+  margin-top: 0;
 }
 
 /* Container */
@@ -63,8 +64,10 @@ body {
 
 /* Header */
 .header {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   background-color: var(--bg-color);
   border-bottom: 1px solid var(--border-color);
   padding: 1rem 0;
@@ -308,7 +311,8 @@ body {
 
 /* Main content */
 .main {
-  padding: 2rem 0;
+  padding: 6rem 0 2rem;
+  margin-top: 0;
 }
 
 /* Posts */
@@ -430,9 +434,17 @@ body {
   line-height: 1.4;
 }
 
+.toc-item.level-2 {
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
 .toc-item.level-3 {
-  padding-left: 1.5rem;
+  padding-left: 2.5rem;
   font-size: 0.9rem;
+  font-weight: 400;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
 }
 
 .toc-link {

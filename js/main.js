@@ -77,11 +77,11 @@ function initTOC() {
   if (!tocLinks.length || !sections.length) return;
   
   // Add IDs to sections if they don't have them
-  sections.forEach(section => {
+  sections.forEach((section, idx) => {
     if (!section.getAttribute('id')) {
       const sectionText = section.textContent.trim();
       const sectionId = sectionText.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9\-_]/g, '');
-      section.setAttribute('id', sectionId);
+      section.setAttribute('id', sectionId || 'section-' + idx);
     }
   });
   
@@ -89,7 +89,11 @@ function initTOC() {
   tocLinks.forEach((link, index) => {
     if (index < sections.length) {
       const sectionId = sections[index].getAttribute('id');
-      link.setAttribute('href', '#' + sectionId);
+      if (sectionId) {
+        link.setAttribute('href', '#' + sectionId);
+      } else {
+        link.style.display = 'none';
+      }
     }
   });
   
@@ -98,11 +102,17 @@ function initTOC() {
     link.addEventListener('click', function(e) {
       e.preventDefault();
       const targetId = this.getAttribute('href');
+      
+      // Skip if targetId is invalid
+      if (!targetId || targetId === '#' || targetId.trim() === '') {
+        return;
+      }
+      
       const targetElement = document.querySelector(targetId);
       
       if (targetElement) {
         window.scrollTo({
-          top: targetElement.offsetTop - 100,
+          top: targetElement.offsetTop - 80,
           behavior: 'smooth'
         });
       }
